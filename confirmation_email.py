@@ -4,8 +4,8 @@ from email.message import EmailMessage
 
 # Define email sender and receiver
 email_sender = 'pavanppk448@gmail.com'
-email_password = 'upxp woww megz mtfr'
-email_receiver = 'pavanppk448@gmail.com','reddykumar0012@gmail.com'
+email_password = '#password'
+email_receiver = 'pavanppk448@gmail.com'
 
 # Set the subject and body of the email
 subject = 'TEDxSIST Test Mail'
