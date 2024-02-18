@@ -3,13 +3,13 @@ import ssl
 from email.message import EmailMessage
 import pandas as pd
 
-df = pd.read_excel(r"C:\Users\pavan\OneDrive\Documents\Confirmation_list.xlsx")  # Replace with your Excel file's path
+df = pd.read_excel(r"Confirmation_list.xlsx")  # Replace with your Excel file's path
 email_addresses = df['Email'].tolist()
 
 email_sender = ''
 email_password = ''
 
-subject = 'TEDxSIST Test Mail'
+subject = 'Test Mail'
 body = """
 It's Working
 """
